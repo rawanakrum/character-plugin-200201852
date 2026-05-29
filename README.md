@@ -24,8 +24,8 @@ The project does not compute forces, rigid-body dynamics, or contact physics. Mo
 - Quaternion normalization for stable joint output
 - Smooth PD-like interpolation toward target joint angles
 - Standalone test passing 1000 ticks
-- Integrated DLL into N8RO plugin folder
-- Verified human character motion using the N8RO GLB viewer
+- Prepared Windows x64 DLL for N8RO integration
+- Verified N8RO GLB viewer workflow with GenericCivilianPresence
 
 ## Build Steps
 
