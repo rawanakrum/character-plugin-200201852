@@ -32,7 +32,7 @@ The project does not compute forces, rigid-body dynamics, or contact physics. Mo
 Open Developer PowerShell and run:
 
 ```powershell
-cd C:\project_CA_Plugin\character-plugin-200201852-main
+cd D:\project_CA_Plugin\character-plugin-200201852-main
 cmake -S . -B build -A x64
 cmake --build build --config Release
 
