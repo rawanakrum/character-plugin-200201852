@@ -33,14 +33,6 @@ The current joint pose is smoothed toward the target pose every tick using PD-li
 
 This keeps the motion stable and prevents invalid quaternion output.
 
-## Joint Angle Output
-
-For every tick, the controller writes one rotation for each of the 10 major joints:
-
-```cpp
-out_overrides[i].local_rotation = c->joint_pose[i];
-out_overrides[i].apply = 1;
-
 ## Stability
 
 The controller normalizes every quaternion before sending it to the host. This prevents invalid rotation output such as NaN, infinity, or non-unit quaternions.
@@ -54,3 +46,12 @@ The controller was tested with the standalone test harness for 1000 ticks.
 The test confirmed that all generated joint quaternions remain finite and unit-like.
 
 The N8RO `GenericCivilianPresence` scenario and GLB viewer were used for visual verification of the character motion canvas and the configured 10-joint list.
+
+## Joint Angle Output
+
+For every tick, the controller writes one rotation for each of the 10 major joints:
+
+```cpp
+out_overrides[i].local_rotation = c->joint_pose[i];
+out_overrides[i].apply = 1;
+
