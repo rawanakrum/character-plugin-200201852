@@ -1,0 +1,23 @@
+Rawan Character Plugin final verification
+
+DLL file: character_plugin_200201852.dll
+Expected plugin name: Rawan Character Plugin v0.1
+
+String check:
+5Rawan Character Plugin v0.1
+
+Exports:
+Export Table:
+ DLL name: character_plugin_200201852_rawan.dll
+ Ordinal base: 1
+ Ordinal      RVA  Name
+       1   0x1040  arkheon_character_create
+       2   0x12a0  arkheon_character_destroy
+       3   0x1020  arkheon_character_get_motion_clips
+       4   0x1010  arkheon_character_plugin_name
+       5   0x1000  arkheon_character_sdk_version
+       6   0x1470  arkheon_character_tick
+
+Linux standalone sanity test:
+SDK version = 0x00010000
+PASS: 1000 ticks, all quaternions finite & unit-ish
