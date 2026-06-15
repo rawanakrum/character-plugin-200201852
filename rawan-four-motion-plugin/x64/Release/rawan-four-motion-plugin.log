@@ -1,0 +1,14 @@
+﻿  RawanFourMotionPlugin.cpp
+D:\N8RO_2\include\astsim\plugin\IModelPluginService.h(22,39): warning C4251: 'arkheon::astsim::IModelPluginService::kPluginServiceId': 'std::basic_string_view<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of 'arkheon::astsim::IModelPluginService'
+  (compiling source file 'src/RawanFourMotionPlugin.cpp')
+      D:\VS code\VC\Tools\MSVC\14.44.35207\include\__msvc_string_view.hpp(1341,7):
+      see declaration of 'std::basic_string_view<char,std::char_traits<char>>'
+  
+     Creating library D:\N8RO_2\dev\samples\sim\rawan-four-motion-plugin\bin\release\rawan-four-motion-plugin.lib and object D:\N8RO_2\dev\samples\sim\rawan-four-motion-plugin\bin\release\rawan-four-motion-plugin.exp
+  Generating code
+  121 of 705 functions (17.2%) were compiled, the rest were copied from previous compilation.
+    32 functions were new in current compilation
+    132 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  rawan-four-motion-plugin.vcxproj -> D:\N8RO_2\dev\samples\sim\rawan-four-motion-plugin\bin\release\rawan-four-motion-plugin.dll
+  [Deploy] rawan-four-motion-plugin.dll copied to D:\N8RO_2\userPlugins\sim

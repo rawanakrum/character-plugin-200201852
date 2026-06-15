@@ -1,0 +1,29 @@
+Add these under the human entity's Animation tab -> SupportedAnimationList.
+
+Entry 1:
+animationCode: Rawan Idle
+displayName: Rawan Idle
+loopDefault: true
+speedScaleDefault: 1.0
+blendSecondsDefault: 0.15
+
+Entry 2:
+animationCode: Rawan Walk
+displayName: Rawan Walk
+loopDefault: true
+speedScaleDefault: 1.0
+blendSecondsDefault: 0.15
+
+Entry 3:
+animationCode: Rawan Push
+displayName: Rawan Push
+loopDefault: true
+speedScaleDefault: 1.0
+blendSecondsDefault: 0.15
+
+Entry 4:
+animationCode: Rawan Climb
+displayName: Rawan Climb
+loopDefault: true
+speedScaleDefault: 1.0
+blendSecondsDefault: 0.15
