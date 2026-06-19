@@ -1,0 +1,3 @@
+Linux standalone sanity test:
+SDK version = 0x00010000
+PASS: 1000 ticks, all quaternions finite & unit-ish

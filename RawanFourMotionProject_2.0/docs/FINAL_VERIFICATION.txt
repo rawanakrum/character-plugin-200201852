@@ -1,0 +1,7 @@
+Rawan Character Plugin final verification
+
+Expected plugin name: Rawan Character Plugin v0.1
+
+Linux standalone sanity test:
+SDK version = 0x00010000
+PASS: 1000 ticks, all quaternions finite & unit-ish
