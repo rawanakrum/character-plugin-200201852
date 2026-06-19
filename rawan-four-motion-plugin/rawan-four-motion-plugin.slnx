@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <BuildType Name="Release" />
-    <Platform Name="x64" />
-  </Configurations>
-  <Project Path="rawan-four-motion-plugin.vcxproj" Id="92ddc8d5-9de8-4eaa-9f13-85a1712e4f2d" />
-</Solution>

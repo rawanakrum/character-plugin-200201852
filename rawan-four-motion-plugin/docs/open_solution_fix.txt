@@ -1,8 +1,0 @@
-This open-solution.cmd intentionally skips setup-dev.cmd because some N8RO releases search only for Visual Studio 2022 Insiders.
-Use this script if you already have regular Visual Studio 2022/2026 with C++ tools installed.
-
-Workflow:
-1. Close N8RO.
-2. Run open-solution.cmd.
-3. In Visual Studio, choose Release | x64.
-4. Build the project.
